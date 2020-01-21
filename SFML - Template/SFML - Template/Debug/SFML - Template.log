@@ -1,0 +1,160 @@
+﻿  Game.cpp
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.h(10,36): error C2065:  'SnakeContainer': undeclared identifier
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.h(10,29): error C2923:  'std::vector': 'SnakeContainer' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(334,37): error C3203:  'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Game.cpp(19,27): error C2678:  binary '>=': no operator found which takes a left-hand operand of type 'sf::Time' (or there is no acceptable conversion)
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML-2.5.1\include\SFML\System\Time.hpp(221,22): message :  could be 'bool sf::operator >=(sf::Time,sf::Time)' [found using argument-dependent lookup]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML-2.5.1\include\SFML\System\String.hpp(600,22): message :  or       'bool sf::operator >=(const sf::String &,const sf::String &)' [found using argument-dependent lookup]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML-2.5.1\include\SFML\Window\VideoMode.hpp(177,22): message :  or       'bool sf::operator >=(const sf::VideoMode &,const sf::VideoMode &)' [found using argument-dependent lookup]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Game.cpp(19,27): message :  while trying to match the argument list '(sf::Time, float)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Game.cpp(23,24): error C2678:  binary '-=': no operator found which takes a left-hand operand of type 'sf::Time' (or there is no acceptable conversion)
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML-2.5.1\include\SFML\System\Time.hpp(280,23): message :  could be 'sf::Time &sf::operator -=(sf::Time &,sf::Time)' [found using argument-dependent lookup]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML-2.5.1\include\SFML\Graphics\Color.hpp(207,26): message :  or       'sf::Color &sf::operator -=(sf::Color &,const sf::Color &)' [found using argument-dependent lookup]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Game.cpp(23,24): message :  while trying to match the argument list '(sf::Time, float)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Game.cpp(88,26): error C2100:  illegal indirection
+  Generating Code...
+  Compiling...
+  main.cpp
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Game.cpp(89,26): error C2100:  illegal indirection
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.h(10,36): error C2065:  'SnakeContainer': undeclared identifier
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.h(10,29): error C2923:  'std::vector': 'SnakeContainer' is not a valid template type argument for parameter '_Ty'
+  Generating Code...
+  Compiling...
+  Snake.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(334,37): error C3203:  'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.h(10,36): error C2065:  'SnakeContainer': undeclared identifier
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.h(10,29): error C2923:  'std::vector': 'SnakeContainer' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(334,37): error C3203:  'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(4,1): error C2512:  'std::vector': no appropriate default constructor available
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(335,1): message :  see declaration of 'std::vector'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,53): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,53): warning C4244:         with
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,53): warning C4244:         [
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,53): warning C4244:             T=float
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,53): warning C4244:         ]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,41): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,41): warning C4244:         with
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,41): warning C4244:         [
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,41): warning C4244:             T=float
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(6,41): warning C4244:         ]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(15,20): error C2662:  'void std::vector<_Ty,_Alloc>::clear(void) noexcept': cannot convert 'this' pointer from 'SnakeContainer' to 'std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(15,20): message :  Reason: cannot convert from 'SnakeContainer' to 'std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(15,2): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(17,13): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(18,13): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(19,13): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(37,29): error C2662:  'bool std::vector<_Ty,_Alloc>::empty(void) noexcept const': cannot convert 'this' pointer from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(37,29): message :  Reason: cannot convert from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(37,11): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(37,44): error C2663:  'std::vector<_Ty,_Alloc>::front': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(55,5): error C2662:  'bool std::vector<_Ty,_Alloc>::empty(void) noexcept const': cannot convert 'this' pointer from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(55,5): message :  Reason: cannot convert from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(55,6): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(56,58): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(56,58): message :  Reason: cannot convert from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(56,41): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(56,27): error C2530:  'tail_head': references must be initialized
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(58,5): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(58,5): message :  Reason: cannot convert from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(58,6): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(60,59): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(60,59): message :  Reason: cannot convert from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(60,42): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(60,28): error C2530:  'tail_bone': references must be initialized
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(68,16): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(72,16): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(80,16): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(84,16): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(92,15): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(96,15): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(100,15): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(104,15): error C2663:  'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(112,5): error C2662:  'bool std::vector<_Ty,_Alloc>::empty(void) noexcept const': cannot convert 'this' pointer from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(112,5): message :  Reason: cannot convert from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(112,6): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(121,37): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(121,37): message :  Reason: cannot convert from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(121,15): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(123,16): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'SnakeContainer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(123,16): message :  while trying to match the argument list '(SnakeContainer, int)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(123,46): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'SnakeContainer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(123,46): message :  while trying to match the argument list '(SnakeContainer, int)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(127,18): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'SnakeContainer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(127,18): message :  while trying to match the argument list '(SnakeContainer, int)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(131,18): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'SnakeContainer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(131,18): message :  while trying to match the argument list '(SnakeContainer, int)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(135,18): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'SnakeContainer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(135,18): message :  while trying to match the argument list '(SnakeContainer, int)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(139,18): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'SnakeContainer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(139,18): message :  while trying to match the argument list '(SnakeContainer, int)'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(145,5): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(145,5): message :  Reason: cannot convert from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(145,6): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(147,35): error C2663:  'std::vector<_Ty,_Alloc>::front': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(147,22): error C2530:  'head': references must be initialized
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(148,29): error C2663:  'std::vector<_Ty,_Alloc>::begin': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(148,47): error C3536:  'itr': cannot be used before it is initialized
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(148,61): error C2663:  'std::vector<_Ty,_Alloc>::end': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(152,31): error C2663:  'std::vector<_Ty,_Alloc>::end': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(163,24): error C2662:  'void std::vector<_Ty,_Alloc>::pop_back(void)': cannot convert 'this' pointer from 'SnakeContainer' to 'std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(163,24): message :  Reason: cannot convert from 'SnakeContainer' to 'std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(163,3): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(171,5): error C2662:  'bool std::vector<_Ty,_Alloc>::empty(void) noexcept const': cannot convert 'this' pointer from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(171,5): message :  Reason: cannot convert from 'SnakeContainer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(171,6): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(173,25): error C2663:  'std::vector<_Ty,_Alloc>::begin': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(175,29): error C3536:  'head': cannot be used before it is initialized
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(179,29): error C2663:  'std::vector<_Ty,_Alloc>::begin': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(179,47): error C3536:  'itr': cannot be used before it is initialized
+  Generating Code...
+  Compiling...
+  World.cpp
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.cpp(179,61): error C2663:  'std::vector<_Ty,_Alloc>::end': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.h(10,36): error C2065:  'SnakeContainer': undeclared identifier
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\Snake.h(10,29): error C2923:  'std::vector': 'SnakeContainer' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(334,37): error C3203:  'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(10,37): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(15,19): warning C4804:  '%': unsafe use of type 'bool' in operation
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,62): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,62): warning C4244:         with
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,62): warning C4244:         [
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,62): warning C4244:             T=unsigned int
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,62): warning C4244:         ]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,62): warning C4244:         and
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,62): warning C4244:         [
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,62): warning C4244:             T=float
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,62): warning C4244:         ]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,37): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,37): warning C4244:         with
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,37): warning C4244:         [
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,37): warning C4244:             T=float
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(17,37): warning C4244:         ]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,62): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,62): warning C4244:         with
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,62): warning C4244:         [
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,62): warning C4244:             T=unsigned int
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,62): warning C4244:         ]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,62): warning C4244:         and
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,62): warning C4244:         [
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,62): warning C4244:             T=float
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,62): warning C4244:         ]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,37): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,37): warning C4244:         with
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,37): warning C4244:         [
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,37): warning C4244:             T=float
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(21,37): warning C4244:         ]
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(45,60): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+C:\Users\Rhys Duff\source\repos\SFML - Template\SFML - Template\World.cpp(45,36): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
